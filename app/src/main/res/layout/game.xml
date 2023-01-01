@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/zycie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.spaceshooter.GameView
+            android:id="@+id/gameView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/rightView"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="75dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/rown" />
+
+        <ImageView
+            android:id="@+id/downView"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:clickable="true"
+            app:layout_constraintEnd_toStartOf="@+id/rightView"
+            app:layout_constraintTop_toBottomOf="@+id/rightView"
+            app:srcCompat="@drawable/down2" />
+
+        <ImageView
+            android:id="@+id/upView"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/rightView"
+            app:layout_constraintEnd_toStartOf="@+id/rightView"
+            app:srcCompat="@drawable/up" />
+
+        <ImageView
+            android:id="@+id/leftView"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toTopOf="@+id/downView"
+            app:layout_constraintEnd_toStartOf="@+id/upView"
+            app:srcCompat="@drawable/left" />
+
+        <ImageView
+            android:id="@+id/stayView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/downView"
+            app:layout_constraintEnd_toStartOf="@+id/rightView"
+            app:layout_constraintStart_toEndOf="@+id/leftView"
+            app:layout_constraintTop_toBottomOf="@+id/upView"
+            app:srcCompat="@drawable/stay" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

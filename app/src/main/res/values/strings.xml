@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SpaceShooter</string>
+    <string name="nowa">Nowa Gra</string>
+    <string name="dalej">Graj Dalej</string>
+    <string name="wyniki">Wyniki</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="zamknij">Zamknij</string>
+    <string name="nazwa">Podaj nazwę gracza:</string>
+    <string name="trudnosc">Wybierz poziom trudności:</string>
+    <string name="latwy">Łatwy</string>
+    <string name="sredni">Średni</string>
+    <string name="trudny">Trudny</string>
+    <string name="dzwiek">Dzwięk ma być:</string>
+    <string name="soundOn">Włączony</string>
+    <string name="soundOff">Wyłączony</string>
+    <string name="powrot">Powrót</string>
+    <string name="wynik">Wynik: 0</string>
+    <string name="zycie">Życie: 3</string>
+    <string name="poziom1">Poziom 1</string>
+    <string name="poziom2">Poziom 2</string>
+    <string name="poziom3">Poziom 3</string>
+    <string name="poziom4">Poziom 4</string>
+    <string name="poziom5">Poziom 5</string>
+    <string name="poziom6">Poziom 6</string>
+    <string name="poziom7">Poziom 7</string>
+    <string name="poziom8">Poziom 8</string>
+    <string name="poziom9">Poziom 9</string>
+    <string name="sklep">SKLEP</string>
+    <string name="monety">Ilość monet: 0</string>
+    <string name="buy1">10 MONET</string>
+    <string name="buy2">15 MONET</string>
+    <string name="buy3">20 MONET</string>
+    <string name="buy4">25 MONET</string>
+    <string name="buy5">30 MONET</string>
+    <string name="buy6">35 MONET</string>
+    <string name="przedmiot1">Gracz: +1 max hp</string>
+    <string name="przedmiot2">Wróg: -1 max hp</string>
+    <string name="przedmiot3">Gracz: +20% magazynku</string>
+    <string name="przedmiot4">Wróg: +20% czas strzału</string>
+    <string name="przedmiot5">Gracz: +1 prędkość</string>
+    <string name="przedmiot6">Wróg: -1 prędkość</string>
+
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    >
+
+    <TextView
+        android:id="@+id/monetySk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/griffy"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/monety"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/przedmiot4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/buy4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot2TV" />
+
+    <ImageView
+        android:id="@+id/przedmiot4IV"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        app:layout_constraintEnd_toStartOf="@+id/przedmiot6IV"
+        app:layout_constraintStart_toEndOf="@+id/przedmiot2IV"
+        app:layout_constraintTop_toTopOf="@+id/przedmiot2IV"
+        app:srcCompat="@drawable/magde" />
+
+    <Button
+        android:id="@+id/przedmiot5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy5"
+        app:layout_constraintEnd_toStartOf="@+id/przedmiot6"
+        app:layout_constraintStart_toEndOf="@+id/przedmiot4"
+        app:layout_constraintTop_toTopOf="@+id/przedmiot4" />
+
+    <ImageView
+        android:id="@+id/przedmiot2IV"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot1"
+        app:srcCompat="@drawable/hpminus" />
+
+    <TextView
+        android:id="@+id/przedmiot2TV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textColor="#D10AF6"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/przedmiot2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot2IV" />
+
+    <TextView
+        android:id="@+id/przedmiot4TV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/przedmiot4"
+        android:textColor="#D10AF6"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toEndOf="@+id/przedmiot1TV"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot4IV" />
+
+    <TextView
+        android:id="@+id/przedmiot6TV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textColor="#D10AF6"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/przedmiot6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot6IV" />
+
+    <Button
+        android:id="@+id/przedmiot6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/buy6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot6TV" />
+
+    <ImageView
+        android:id="@+id/przedmiot6IV"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot3"
+        app:srcCompat="@drawable/slow" />
+
+    <Button
+        android:id="@+id/powrot4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/powrot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/przedmiot5IV"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/przedmiot3IV"
+        app:srcCompat="@drawable/fast" />
+
+    <TextView
+        android:id="@+id/przedmiot3TV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/przedmiot3"
+        android:textColor="#D10AF6"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
+        app:layout_constraintStart_toEndOf="@+id/przedmiot1TV"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+    <ImageView
+        android:id="@+id/przedmiot3IV"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/przedmiot5IV"
+        app:layout_constraintStart_toEndOf="@+id/przedmiot1IV"
+        app:layout_constraintTop_toBottomOf="@+id/monetySk"
+        app:srcCompat="@drawable/magazineb" />
+
+    <Button
+        android:id="@+id/przedmiot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy2"
+        app:layout_constraintEnd_toStartOf="@+id/przedmiot3"
+        app:layout_constraintStart_toEndOf="@+id/przedmiot1"
+        app:layout_constraintTop_toTopOf="@+id/przedmiot3" />
+
+    <ImageView
+        android:id="@+id/przedmiot1IV"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/przedmiot3IV"
+        app:srcCompat="@drawable/hpplus" />
+
+    <TextView
+        android:id="@+id/przedmiot1TV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/przedmiot1"
+        android:textColor="#D10AF6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot1IV" />
+
+    <Button
+        android:id="@+id/przedmiot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/buy1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot1TV" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/przedmiot5"
+        android:textColor="#D10AF6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/przedmiot5IV" />
+
+    <Button
+        android:id="@+id/przedmiot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/buy3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/griffy"
+        android:text="@string/sklep"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
